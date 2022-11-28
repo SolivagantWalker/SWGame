@@ -1,7 +1,11 @@
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include "glm/mat2x2.hpp"
+
+
 #include "Application.hpp"
+glm::mat2x2 fixed{ 1,2,3,4 };
 
 static int width = 640;
 static int height = 480;

@@ -137,8 +137,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glad\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glm;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glad\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalUsingDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glm;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
