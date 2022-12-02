@@ -120,13 +120,13 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glad\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glad\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\assimp\include\;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\SWGame\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\assimp\lib\Debug;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc143-mtd.lib;glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,7 +139,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glm;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glad\include;C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalUsingDirectories>C:\Users\Windows10 Home\Documents\GitHub\SWEngine\SWGame\ExtraLibs\glm;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
