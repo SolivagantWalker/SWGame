@@ -1,0 +1,18 @@
+#Creator: Solvigient Walker dir
+#Date:	  12/8/2022
+--"Configuration and Arhitecture"--
+*Changes:
+//make folders for external libs 
+//make folder for configuration of those libs
+//seperate shader folder
+//delete views of visual studio (filters)
+//set up better output direction for build and intermidiates
+//set up src folder for files
+//rename solutio and project
+//add aditional files for errorlogs.txt encountered files and todo_list 
+//relinking assimp for debug build
+//adding commend line for /vebose:lib output linker warrnings wich libraries the linker searches
+*Considarations:
+//adding /NODEFAULT command line linker option to ignore the incorrect run-time libraries 
+
+

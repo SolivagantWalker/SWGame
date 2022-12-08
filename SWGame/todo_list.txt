@@ -1,0 +1,9 @@
+Configuration and set up
+->adding Visual studio macros for paths targeting includes/libs and external dependencies
+->making own math lib with additional GLM lib
+	-> Vector2
+	-> Vector3
+	-> Matrix3
+	-> Matrix4
+
+->incorporating basic rendering screen on 3D View 

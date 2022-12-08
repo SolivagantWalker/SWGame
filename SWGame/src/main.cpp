@@ -2,9 +2,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "glm/mat2x2.hpp"
-
-
+#include <assimp/Importer.hpp>   // C++ importer interface
+#include <assimp/scene.h>           // Output data structure
+#include <assimp/postprocess.h>     // Post processing flags
 
 #include <iostream>
 #include <string>
@@ -15,28 +15,6 @@
 
 static int width = 640;
 static int height = 480;
-
-class Window
-{
-private:
-    GLFWwindow* window;
-public:
-    Window() {
-        if (this->window != nullptr) {
-            window = glfwCreateWindow(640, 480, "Window", NULL, NULL);
-        }
-        else
-            std::cout << "window alreay initilized";
-    };
-    ~Window();
-    void init();
-};
-
-
-
-
-
-glm::mat2x2 fixed{ 1,2,3,4 };
 
 
 int main()
@@ -67,7 +45,10 @@ int main()
 
 #pragma endregion
     //init redered objects
+    int nature = 1;
+    int animals = 9;
 
+    std::cout << animals;
 
     //redering loop
 

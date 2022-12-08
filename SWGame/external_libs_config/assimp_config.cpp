@@ -113,11 +113,6 @@
 //At the moment the library runs on any little - endian platform including X86 / Windows / Linux / Mac and X64 / Windows / Linux / Mac.
 //Special attention was paid to keep the library as free as possible from dependencies
 
-#include <assimp/Importer.hpp>   // C++ importer interface
-#include <assimp/scene.h>           // Output data structure
-#include <assimp/postprocess.h>     // Post processing flags
-
-//Scene,Nodes,Skeletal,Mesh ..
 
 
 
